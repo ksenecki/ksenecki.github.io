@@ -64,7 +64,7 @@ color: #222;
 footer {
   background-color: #afafaf;
   color: #000000;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 footer h5 {
   text-align: center;
@@ -124,17 +124,6 @@ hr.light {
 }  
 }
 
-
-/*--Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-
-/*-- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
