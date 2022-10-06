@@ -1,0 +1,42 @@
+{
+  "name": "pandas-story",
+  "version": "1.0.0",
+  "description": "This is Panda story",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged",
+    "lint": "eslint ."
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown --no-stash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenecki/ksenecki.github.io.git"
+  },
+  "author": "Kamil Senecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenecki/ksenecki.github.io/issues"
+  },
+  "homepage": "https://github.com/ksenecki/ksenecki.github.io#readme",
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "typescript": "^4.8.4"
+  }
+}
