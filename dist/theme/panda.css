@@ -1,9 +1,5 @@
-/**
- * League theme for reveal.js.
- *
- * This was the default theme pre-3.0.0.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+/*
+ * Panda theme for reveal.js.
  */
 @import url(./fonts/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
@@ -52,12 +48,12 @@ section.has-light-background h6 {
 }
 
 .reveal-viewport {
-  background: rgb(28, 30, 32);
+  background: rgb(36, 46, 40);
   background: -moz-radial-gradient(
     center,
     circle cover,
-    rgb(85, 90, 95) 0%,
-    rgb(28, 30, 32) 100%
+    rgb(75, 104, 97) 0%,
+    rgb(36, 46, 40) 100%
   );
   background: -webkit-gradient(
     radial,
@@ -65,32 +61,32 @@ section.has-light-background h6 {
     0px,
     center center,
     100%,
-    color-stop(0%, rgb(85, 90, 95)),
-    color-stop(100%, rgb(28, 30, 32))
+    color-stop(0%, rgb(75, 104, 97)),
+    color-stop(100%, rgb(36, 46, 40))
   );
   background: -webkit-radial-gradient(
     center,
     circle cover,
-    rgb(85, 90, 95) 0%,
-    rgb(28, 30, 32) 100%
+    rgb(75, 104, 97) 0%,
+    rgb(36, 46, 40) 100%
   );
   background: -o-radial-gradient(
     center,
     circle cover,
-    rgb(85, 90, 95) 0%,
-    rgb(28, 30, 32) 100%
+    rgb(75, 104, 97) 0%,
+    rgb(36, 46, 40) 100%
   );
   background: -ms-radial-gradient(
     center,
     circle cover,
-    rgb(85, 90, 95) 0%,
-    rgb(28, 30, 32) 100%
+    rgb(75, 104, 97) 0%,
+    rgb(36, 46, 40) 100%
   );
   background: radial-gradient(
     center,
     circle cover,
-    rgb(85, 90, 95) 0%,
-    rgb(28, 30, 32) 100%
+    rgb(75, 104, 97) 0%,
+    rgb(36, 46, 40) 100%
   );
   background-color: var(--r-background-color);
 }
