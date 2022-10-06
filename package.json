@@ -10,10 +10,14 @@
     "lint": "eslint .",
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "preinstall": "npx npm-force-resolutions"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown --no-stash"
+  },
+  "resolutions": {
+    "glob-parent": "^6.0.1"
   },
   "repository": {
     "type": "git",
