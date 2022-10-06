@@ -14,7 +14,7 @@ This is a presentation about me
 
 ## Reveal.js
 
-This project uses reveal.js. This is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+This project uses reveal.js. This is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out their live demo and tutorial at [revealjs.com](https://revealjs.com/).
 
 ## Development
 
