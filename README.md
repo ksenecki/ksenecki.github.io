@@ -1,16 +1,17 @@
 # My story
 
-This is a presentation about me
+This is me playing with [RevealJS](https://revealjs.com/), a framework to create presentations.
 
 ## Project requirements
 
-1. [Node 12+](https://nodejs.org/en/docs/)
-2. [yarn](https://yarnpkg.com/package/doc)
+1. [Node 16+](https://nodejs.org/en/docs/)
+2. [yarn](https://yarnpkg.com/package/doc) is optional
 
 ## How to setup the Project
 
 1. Clone repository
-2. Enter the project directory and execute `yarn` in order to install all the packages
+2. Enter the project directory and execute `npm install` in order to install all the packages
+3. `yarn` can be used as an alternative
 
 ## Reveal.js
 

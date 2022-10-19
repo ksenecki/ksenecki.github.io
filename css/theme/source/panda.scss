@@ -30,3 +30,46 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
 // Theme template ------------------------------
 @import '../template/theme';
 // ---------------------------------------------
+
+// Change styling here
+.reveal h1 {
+  font-size: 100px;
+}
+
+.reach-list {
+  a {
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border: 1px solid rgb(56, 56, 56);
+  }
+}
+
+.horizontal-section {
+  transform: translate(-10%, -10%);
+}
+
+.vertical-section {
+  transform: translate(-0%, -10%);
+}
+
+.description-container {
+  font-size: 40px;
+}
+
+.table-container {
+  width: 70%;
+  font-size: 30px;
+
+  .text-subheader {
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  .additional-description {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
