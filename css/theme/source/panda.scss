@@ -33,7 +33,7 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
 
 // Change styling here
 .reveal h1 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .reach-list {
@@ -48,23 +48,23 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
 }
 
 .horizontal-section {
-  transform: translate(-10%, -10%);
+  transform: translate(0%, 10%);
 }
 
 .vertical-section {
-  transform: translate(-0%, -10%);
+  transform: translate(-20%, 0%);
 }
 
 .description-container {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .table-container {
   width: 70%;
-  font-size: 30px;
+  font-size: 20px;
 
   .text-subheader {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
   }
 

@@ -404,7 +404,7 @@ section.has-light-background h6 {
   }
 }
 .reveal h1 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .reach-list a {
@@ -417,23 +417,23 @@ section.has-light-background h6 {
 }
 
 .horizontal-section {
-  transform: translate(-10%, -10%);
+  transform: translate(0%, 10%);
 }
 
 .vertical-section {
-  transform: translate(0%, -10%);
+  transform: translate(-20%, 0%);
 }
 
 .description-container {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .table-container {
   width: 70%;
-  font-size: 30px;
+  font-size: 20px;
 }
 .table-container .text-subheader {
-  font-size: 40px;
+  font-size: 30px;
   font-style: italic;
 }
 .table-container .additional-description {
