@@ -20,3 +20,11 @@ This project uses reveal.js. This is an open source HTML presentation framework.
 ## Development
 
 - start development server using `npm start`
+
+# Tips:
+
+- `?` - help
+- `o` - slide overview
+- `s` - speaker notes
+- arrows - navigation
+- `space` - next slide
